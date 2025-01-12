@@ -77,7 +77,8 @@ class _MoreScreenState extends State<MoreScreen> {
                     overview:
                         'When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.',
                     logoUrl:
-                        "https://s3.amazonaws.com/www-inside-design/uploads/2017/10/strangerthings_feature-983x740.jpg",
+"https://img.icons8.com/?size=100&id=62715&format=png&color=000000",
+                        // "https://s3.amazonaws.com/www-inside-design/uploads/2017/10/strangerthings_feature-983x740.jpg",
                     month: "Jun",
                     day: "19",
                   ),

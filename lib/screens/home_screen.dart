@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:netflix_app/models/movie_model.dart';
 import 'package:netflix_app/models/tv_series_model.dart';
+import 'package:netflix_app/screens/profile_screen.dart';
 import 'package:netflix_app/screens/search_screen.dart';
 import 'package:netflix_app/services/api_services.dart';
 import 'package:netflix_app/widgets/custom_carousel.dart';
@@ -62,9 +63,12 @@ class _HomeScreenState extends State<HomeScreen> {
           ClipRRect(
             borderRadius: BorderRadius.circular(6),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder:(context) => const ProfileScreen() ));
+              },
               child: Container(
-                color: Colors.blue,
+                // color: Colors.white,
+                child: Icon(Icons.account_circle_outlined,color: Colors.white,),
                 height: 27,
                 width: 27,
               ),

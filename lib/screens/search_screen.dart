@@ -112,7 +112,7 @@ class _SearchScreenState extends State<SearchScreen> {
                                           );
                                         },
                                         child: Container(
-                                          height: 120,
+                                          height: 78,
                                           decoration: BoxDecoration(
                                               borderRadius:
                                                   BorderRadius.circular(20)),
